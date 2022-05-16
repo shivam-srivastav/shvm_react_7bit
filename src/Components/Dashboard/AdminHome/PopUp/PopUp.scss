@@ -1,0 +1,60 @@
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #00000085;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+
+    .card {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        width: 40%;
+        border: 1px solid #000;
+        border-radius: 3px;
+        Input {
+            margin: .25rem;
+        }
+
+        .title {
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            margin: 1rem 0;
+            // align-self: center;
+
+            button {
+                padding: .5rem 1rem;
+                background-color: red;
+                color: #fff;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+        }
+
+        .first {
+            display: flex;
+        }
+
+        .form {
+            button {
+                padding: .5rem 1rem;
+                background-color: #6666ce;
+                border-radius: 4px;
+                color:#fff;
+                border: none;
+                cursor: pointer;
+            }
+            div{
+                text-align: center;
+            }
+        }
+    }
+}

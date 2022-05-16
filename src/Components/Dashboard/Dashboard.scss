@@ -1,0 +1,42 @@
+.dashboard {
+    height: 90vh;
+    display: flex;
+    width: 100%;
+
+    .sidebar {
+        width: 20vw;
+        background-color: #E7F2F8;
+
+        h2 {
+            text-align: center;
+            color: #6666ce;
+            padding: 1rem;
+        }
+
+        li {
+            list-style: none;
+            padding: 1rem 0.25rem;
+            border-bottom: 1px solid #6666ce;
+        }
+
+        ul {
+            list-style: none;
+
+            li {
+                border: 1px solid #00000055;
+                margin: 0.5rem;
+                padding: .5rem;
+                // margin: 4px;
+                color: #fff;
+                text-align: center;
+                background-color: #6666ceba;
+            }
+        }
+    }
+
+    .main {
+        width: 80vw;
+        padding: 1rem;
+    }
+
+}

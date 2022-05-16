@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat+Subrayada&family=Montserrat:wght@300;400&display=swap');
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #E7F2F8;
+
+    .card {
+        min-width: 350px;
+        width: 30%;
+        padding: 1rem;
+        border: 1px solid #6666ce4f;
+        border-radius: 4px;
+        background: #fff;
+
+    }
+
+    h1 {
+        margin: 1rem;
+        // font-family:montserrat;
+        font-family: 'Montserrat Subrayada', sans-serif;
+        text-align: center;
+        font-weight: 600;
+        color: #6666ce;
+    }
+
+    .icon {
+        text-align: center;
+        margin: 1rem;
+    }
+
+    svg {
+        width: 10rem;
+    }
+
+    Input {
+        padding: 1rem;
+        margin-bottom: 1rem;
+
+    }
+
+    button {
+        width: 100%;
+        background: none;
+        padding: .5rem 1rem;
+        border-radius: 4px;
+        outline: none;
+        background: #6666ce;
+        border: 1px;
+        color: #fff;
+        font-size: 18px;
+    }
+
+}
